@@ -1,0 +1,19 @@
+{
+  "name": "finance-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for personal finance tracking",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": ["telegram", "bot", "finance"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "firebase-admin": "^12.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
